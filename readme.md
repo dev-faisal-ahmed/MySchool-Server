@@ -1,24 +1,40 @@
-## ENV
+# 🏫 My School
 
-### File Name : .env
+A full-stack web application designed to simplify and automate **student, teacher, and administrative management** for educational institutes.  
+It includes role-based access for **Admins, Teachers, and Students** to handle day-to-day academic and financial operations.
 
-```
-NODE_ENV="development"
-PORT="5000"
-SALT="10"
+## ✨ Features
 
-# Database
-DATABASE_URL="postgresql://my-school_owner:4folAbyD3KYr@ep-calm-sound-a19qnybi-pooler.ap-southeast-1.aws.neon.tech/my-school?sslmode=require"
-ACCESS_TOKEN_SECRET="H1TOIUKINVRR0EVLIUFWBNVCHOJPDIZA"
+- 👩‍🎓 **Student & Teacher Management**  
+  Add, update, and delete student/teacher profiles with complete CRUD functionality.
 
-# Seeding
-ADMIN_ID="admin@myschool.com"
-ADMIN_PASSWORD="@admin@"
+- 💰 **Payment & Dues Tracking**  
+  Record student payments, view outstanding dues by student/section/class, and maintain financial history.
 
-# Email Service
-EMAIL="faisa.lahmed.ost@gmail.com"
-PASSWORD="gltw kbjy vfky pgvj"
+- 📝 **Exams, Grades & Attendance**  
+  Teachers can record student attendance and grades. Students can view their results, attendance, and payment records.
 
-# GithubAction Secret
-GITHUB_ACTION_SECRET="@@git-action@@"
-```
+- 📢 **Administration Tools**  
+  Manage subjects, holidays, notices, and new admin accounts. Includes secure password update and role-based access control.
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React, TypeScript, React, Shadcn/UI, React Router Dom.  
+- **Backend:** Express Js, Prisma   
+- **Database:** PostgreSQL  
+- **State & Data:** TanStack Query, React Hook Form  
+- **Auth & Security:** Role-based Access Control  
+
+## Deployment 
+**Live Link:** [click here](https://my-school-client.vercel.app)
+
+## Crdeentials
+- **Admin:** 
+  - Email: admin@myschool.com
+  - Password : @admin@
+- **Teacher:**
+  - Id : FAI
+  - Password : 1234
+- **Student:**
+  - Id : 2025-10-001
+  - Password : 1234
